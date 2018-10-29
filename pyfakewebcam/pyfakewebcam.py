@@ -5,7 +5,7 @@ import timeit
 import sys
 
 import numpy as np
-import pyfakewebcam.v4l2 as _v4l2
+from pyfakewebcam import v4l2 as _v4l2
 
 cv2_imported = False
 try:
